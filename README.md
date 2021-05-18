@@ -1,4 +1,8 @@
-Для запуска приложения необходим уставновленный nodeJS и npm
+#Для запуска приложения необходим уставновленный nodeJS и npm
+#Далее следует выполнить установку зависимостей
+npm install
+#Для запуска используйте команду 
+npm start
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
