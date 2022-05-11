@@ -26,14 +26,8 @@ export const PersonalArea: React.FC = () => {
                     >
                         <List.Item>
                             <List.Item.Meta
-                                title={"Заголовок заявки"}
-                                description={"Описание заявки"}
-                            />
-                        </List.Item>
-                        <List.Item>
-                            <List.Item.Meta
-                                title={"Заголовок заявки"}
-                                description={"Описание заявки"}
+                                title={"20-летия октября,54"}
+                                description={"Прорвало трубу"}
                             />
                         </List.Item>
                     </List>

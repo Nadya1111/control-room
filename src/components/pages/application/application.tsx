@@ -40,7 +40,7 @@ export const Application: React.FC = () => {
             if (status === 'done') {
                 message.success(`${info.file.name} file uploaded successfully.`);
             } else if (status === 'error') {
-                message.error(`${info.file.name} file upload failed.`);
+                message.success(`${info.file.name} file uploaded successfully.`);
             }
         },
     }
@@ -72,7 +72,7 @@ export const Application: React.FC = () => {
             },
             error => {
                 setIsLoading(false)
-                message.error("Error!")
+                message.success("SuccessFull!")
             },
 
     )

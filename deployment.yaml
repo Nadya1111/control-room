@@ -1,0 +1,21 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: control-room-ui
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: control-room-ui
+  template:
+    metadata:
+      labels:
+        app: control-room-ui
+    spec:
+      containers:
+        - name: control-room-ui
+          image: localhost:5000/control-room-ui
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+      restartPolicy: Always
